@@ -1,0 +1,18 @@
+// Language
+export const CHANGE_LANGUAGE = 'CHANGE_LANGUAGE'
+//Login
+export const USER_TOKEN = 'USER_TOKEN'
+export const CURRENT_USER = 'CURRENT_USER'
+export const LOGIN_REQUSIT = "LOGINREQUIST"
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const LOGIN_FAIL = 'LOGIN_FAIL'
+export const CONTACT_MESSAGE = 'CONTACT_MEAASGE'
+export const LOGOUT = 'LOGOUT'
+
+//Notification
+export const NOTIFICATION_RECIEVED = 'NOTIFICATION_RECIEVED'
+
+
+//counter
+export const INCREMENT_COUNTER = 'INCREMENT_COUNTER'
+export const DECREMENT_COUNTER = 'DECREMENT_COUNTER'

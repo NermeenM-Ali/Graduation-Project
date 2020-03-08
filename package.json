@@ -1,0 +1,48 @@
+{
+  "name": "worker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "lodash.debounce": "^4.0.8",
+    "moment": "^2.24.0",
+    "native-base": "^2.13.8",
+    "react": "16.8.6",
+    "react-native": "0.59.6",
+    "react-native-action-button": "^2.8.5",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-firebase": "^5.1.0",
+    "react-native-image-crop-picker": "^0.21.3",
+    "react-native-localization": "^2.1.6",
+    "react-native-maps": "^0.25.0",
+    "react-native-pdf": "^5.0.9",
+    "react-native-progress": "^3.6.0",
+    "react-native-responsive-screen": "^1.2.2",
+    "react-native-router-flux": "^4.0.1",
+    "react-native-scan-barcode": "^3.1.5",
+    "react-native-step-indicator": "0.0.11",
+    "react-native-swiper": "^1.5.14",
+    "react-native-toasty": "0.0.4",
+    "react-native-vector-icons": "^6.6.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.6",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.10.13"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.0",
+    "@babel/runtime": "7.6.0",
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
